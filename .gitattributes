@@ -1,0 +1,5 @@
+my-fastapi-project/my-fastapi-project/data/graph.db filter=lfs diff=lfs merge=lfs -text
+
+git add .gitattributes
+git add my-fastapi-project/my-fastapi-project/data/graph.db
+git commit -m "Track graph.db with LFS"
